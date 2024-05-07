@@ -1,6 +1,3 @@
-# telegram_bot_prom
-task week 2
-
 # Telegram bot for the DevOps course from Prometheus
 t.me/DevOpsGoCourseBot
 
