@@ -44,4 +44,4 @@ Create GitHub Release
 ```bash
 gh release create
 ```
-
+export TELE_TOKEN
