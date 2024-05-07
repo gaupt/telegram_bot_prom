@@ -1,0 +1,19 @@
+# Default values for helm.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+image:
+  registry: "ghcr.io"
+  repository: gaupt/telegram_bot_prom
+  tag: "v1.1.1-e8eeee1"
+  os: linux
+  arch: amd64
+secret:
+  name: "mbot"
+  env: "TELE_TOKEN"
+  key: "token"
+securityContext:
+  privileged: true
+service:
+  port: 8080
