@@ -48,7 +48,3 @@ Create GitHub Release
 gh release create
 ```
 
-Add Helm Chart to release
-```bash
-gh upload <tag>  <chart>.tgz
-```
